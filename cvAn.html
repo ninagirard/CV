@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Digital Resume</title>
+</head>
+
+<body>
+    <!--div class="foretH"></div-->
+    <header>
+        <div>
+            <h1>Nina Girard</h1>
+            <h2>IT Developer</h2>
+        </div> 
+        <div class="droite">
+            <div class="drapeau"> 
+                <a href="cvFR.html"><img src="images/francais.jpg" alt="Drapeau français"></a>
+                <a href="cvEs.html"><img src="images/espagnol.jpg" alt="Drapeau espagnol"></a>
+            </div>  
+            <nav>
+                <a href="#aPropos">About me</a>
+                <a href="#diplomes">Education</a>
+                <a href="#competences">IT experiences and skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div> 
+    </header> 
+    
+    <h3 class="section-title" id="aPropos">About me</h3>
+    <section class="aPropos">
+        <div class="spitch">
+            <h1>{Epitech.}</h1>
+            <p>
+                I am a competent and autonomous computer science student who adapts easily to different situations. 
+                Highly motivated and well-organised, with 2 years' experience at the Institut Universitaire de Technologie Paul Sabatier, 
+                I'm continuing my studies at Epitech Technology in Bordeaux.
+                I'm looking for a work-linked placement in IT Development from January 2024.
+            </p>
+        </div>
+        
+        <div class="infos">
+            <h4>Personal details</h4>
+            <p>nina.girard@epitech.eu</p>
+            <p>+33 6 73 11 14 74</p>
+            <p>3, place Léon Duguit, 33800 BORDEAUX</p>
+            <p>21 years old</p>
+            <p>French</p>
+            <p>linkedin.com/in/ninagirard</p>
+            <p>github.com/ninagirard</p>
+        </div>
+    </section>
+
+    <h3 class="section-title" id="diplomes">Education</h3>
+    <div class="parcours">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+        <input type="radio" name="slide" id="slide4">
+        
+        <div class="slider-content">
+            <article>
+                <div>
+                    <h4>Until 2020 :</h4>
+                    <p><strong>Lycée René Billères, Argelès-Gazost</strong></p>
+                    <p><strong>Baccalauréat : </strong>Economics and social studies, specialising in mathematics</p>
+                    <p><strong>Bachibac : </strong>Historical, geographical and literary culture of Spanish-speaking countries</p>
+                </div>   
+            </article>
+            
+            <article>
+                <div>
+                    <h4>From 2020 to 2021 :</h4>
+                    <p><strong>Toulouse School of Economics, Université Jean Jaures (UT1)</strong></p>
+                    <p><strong>Licence 1 Economie et gestion</strong></p>
+                </div>
+            </article>
+            
+            <article>
+                <div>
+                    <h4>From 2021 to 2023 :</h4>
+                    <p><strong>IUT Informatique, Université Paul Sabatier (UT3)</strong></p>
+                    <p><strong>Diplôme Universitaire de Technologie : </strong>Data administration, management and exploitation course</p>
+                </div>   
+            </article>
+            
+            <article>
+                <div>
+                    <h4>From 2023 :</h4>
+                    <p><strong>Epitech Technology, Bordeaux</strong></p>
+                    <p><strong>Pre-MSC</strong></p>
+                </div>
+            </article>
+        </div>
+
+        <div class="slider-controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+    </div>
+    
+    <h3 class="section-title" id="competences">IT experience and skills</h3>
+    <section class="competences">
+        
+        <article>
+            <h4>IT internship - Grails</h4>
+            <p>
+                Département de la Gironde, Bordeaux with Intellij IDEA / From April 2023 to
+                June 2023 <br>
+                Development of a personnel management application for secondary schools in Grails
+            </p>
+        </article>
+        <article>
+            <h4>PHP</h4>
+            <p>
+                Situation d'Apprentissage Evalué (SAE) with Visual Studio Code / 2022 <br>
+                Creation of an application to manage a sports team in pairs
+            </p>
+        </article>
+        <article>
+            <h4>Java</h4>
+            <p>
+                Situation d'Apprentissage Evalué (SAE) with Access, Eclipse, Looping / 2022 <br>
+                Creation of an application to manage an owner's property assets
+            </p>
+        </article>
+        <article>
+            <h4>HTML/CSS</h4>
+            <p>
+                Situation d'Apprentissage Evalué (SAE) with Angular, Git / 2022 <br>
+                Creation of the BDE ATIDUT online shop <br>  
+                Creation of the IUT Informatique de Toulouse website
+            </p>
+        </article>
+        <article>
+            <h4>Python</h4>
+            <p>
+                Situation d'Apprentissage Evalué (SAE) with Jupiter, Anaconda navigator / 2021 <br>
+                Processing a database and creating statistics in the form of diagrams
+            </p>
+        </article>
+        <article>
+            <h4>ADA</h4>
+            <p>
+                Situation d'Apprentissage Evalué (SAE) with Intellij IDEA / 2021 <br>
+                Creation of a programme that solves all the Sudoku grids
+            </p>
+        </article>
+        <article>
+            <h4>Database</h4>
+            <p>PL/SQL</p>
+            <p>SQL</p>
+            <p>Mongo DB</p>
+        </article>
+    </section>
+
+    <div class="foret"  id="contact"></div>
+    <section class="contact">
+        <h3>Contact me</h3>
+        <form action="your_form_endpoint_here" method="post">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="exemple@domaine.com">
+            </div>
+            
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+            </div>
+            
+            <div class="btn-group">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </section>
+    
+    <!--section class="autres" id="autres">
+        <article><h3>Autres expériences pro</h3></article>
+        <article><h3>Voyages</h3></article>
+        <article><h3>Centres d'intérets etc</h3></article>
+    </section-->
+
+    <footer></footer>
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+</body>
+</html>
